@@ -1,0 +1,84 @@
+
+.nav {
+  position: fixed;
+  background-color: var(--body-color);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  color: var(--title-color);
+  transition: all .3s ease-in-out;
+}
+
+.nav-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.nav #logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav .logo a {
+  font-size: 3rem;
+  background-size: 300%;
+  background-image: linear-gradient(45deg, var(--first-color), var(--first-color-alt), var(--first-color-lighter), var(--first-color-lighter), var(--first-color-alt), var(--first-color));
+  animation: textAnimation 5s linear infinite;
+  display: inline-block;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes textAnimation {
+  to {
+    background-position: 300% center;
+  }
+}
+
+.nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  transition: all .3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: .7rem 1.5rem;
+  transition: all .3s ease-in-out;
+}
+
+.nav.active {
+  background-color: var(--container-color);
+  box-shadow: 0 .2rem 1rem rgb(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: var(--title-color);
+}
+
+.nav.active .nav-container {
+  padding: 1rem 0;
+}
+
+.nav a.current {
+  color: var(--first-color);
+}
+
+.nav a:hover {
+  color: var(--text-color-light);
+}
