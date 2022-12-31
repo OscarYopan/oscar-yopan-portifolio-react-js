@@ -1,0 +1,39 @@
+.portifolio {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--container-color);
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.portifolio h1 {
+  color: var(--title-color);
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.portifolio p {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+.portifolio p a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+.portifolio p a:hover {
+  color: var(--first-color-alt);
+}
+
+.portifolio .portifolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10rem;
+  background-color: var(--first-color-second);
+  border: none;
+}
