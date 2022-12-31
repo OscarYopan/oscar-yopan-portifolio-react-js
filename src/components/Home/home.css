@@ -1,0 +1,75 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.home .social {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+}
+
+.home .social a {
+  text-decoration: none;
+  margin: .5rem 0;
+}
+
+.home .social a i {
+  text-decoration: none;
+  color: var(--first-color-alt);
+}
+
+.home .social a i:hover {
+  transform: scale(1.2);
+}
+
+.home .me {
+  max-width: 40rem;
+  margin: 0 8rem;
+  color: var(--text-color);
+}
+
+.home .me .title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+.home .me .subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home .me .presentation {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
+
+.home .oscar-pic {
+  height: 30rem;
+  width: 30rem;
+  background-image: url(../../../public/img/oscar.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home .oscar-pic::before {
+  content: ' ';
+  height: 34rem;
+  width: 34rem;
+  background-color: var(--first-color);
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  z-index: -10;
+  border-radius: 20% 80% 11% 89% / 65% 40% 60% 35%;
+  animation: rotation 3s infinite ease-in;
+}
