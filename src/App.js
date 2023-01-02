@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Portifolio />
       <Skills />
+      <Portifolio />
     </div>
   )
 }
