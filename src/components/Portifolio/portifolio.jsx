@@ -1,4 +1,5 @@
 import './portifolio.css'
+import SlideShow from '../SlideShow/slideShow'
 
 function Portifolio() {
   return(
@@ -7,6 +8,7 @@ function Portifolio() {
         <h1 className="title">Portifolio</h1>
         <p className="description">This is my personal portifolio, if you prefer, go to my <a href="https://github.com/OscarYopan" target="_blank" rel="noreferrer">Github</a> profile to see more.</p>    
         <div className="portifolio-container"></div>
+        <SlideShow />
       </div>
     </div>
   )
