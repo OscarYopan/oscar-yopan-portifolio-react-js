@@ -37,3 +37,8 @@
   background-color: var(--first-color-second);
   border: none;
 }
+
+.portifolio iframe {
+  width: 600px;
+  height: 400px;
+}
