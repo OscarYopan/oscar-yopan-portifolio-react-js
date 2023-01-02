@@ -1,5 +1,5 @@
 import './App.css'
-import About from './components/About/about'
+import About from './components/About/about.jsx'
 import Header from './components/Header/Header.jsx'
 import Home from './components/Home/home.jsx'
 import Portifolio from './components/Portifolio/portifolio.jsx'
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Skills />
       <Portifolio />
+      <Skills />
     </div>
   )
 }
