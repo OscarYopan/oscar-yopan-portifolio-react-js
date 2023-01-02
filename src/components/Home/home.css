@@ -53,7 +53,7 @@
 .home .oscar-pic {
   height: 30rem;
   width: 30rem;
-  background-image: url(../../../public/img/oscar.jpg);
+  background-image: url('../img/oscar.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 import './skills.css'
-import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.js'
+// import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.js'
 
 function Skills() {
   return(

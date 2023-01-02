@@ -27,7 +27,7 @@
 .about .oscar-photo {
   height: 30rem;
   width: 30rem;
-  background-image: url(../../../public/img/perfil.jpeg);
+  background-image: url('../img/perfil.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
