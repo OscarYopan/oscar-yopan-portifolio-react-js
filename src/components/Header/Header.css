@@ -1,7 +1,7 @@
 
 .nav {
   position: fixed;
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   top: 0;
   left: 0;
   right: 0;
@@ -62,15 +62,23 @@
   transition: all .3s ease-in-out;
 }
 
-.nav a:hover {
-  color: var(--text-color-light);
-}
-
 .nav.active {
   background-color: var(--container-color);
   box-shadow: 0 .2rem 1rem rgb(0, 0, 0, 0.3);
 }
 
+.nav.active a {
+  color: var(--title-color);
+}
+
 .nav.active .nav-container {
   padding: 1rem 0;
+}
+
+.nav a.current {
+  color: var(--first-color);
+}
+
+.nav a:hover {
+  color: var(--text-color-light);
 }
