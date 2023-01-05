@@ -5,7 +5,7 @@ function Footer() {
     <div className='Footer'>
       <div className="footer" id="footer">
         <div id="logo">
-          <h3 className="logo"><a href="index.html">Oscar Yopan</a></h3>
+          <h3 className="logo"><a href="#home">Oscar Yopan</a></h3>
         </div>
         <div className="social">
           <a href="https://github.com/OscarYopan" target="_blank" rel="noreferrer">
