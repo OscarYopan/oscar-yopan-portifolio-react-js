@@ -14,6 +14,7 @@
 .portifolio p {
   font-size: 1.6rem;
   color: var(--text-color);
+  margin-bottom: 1rem;
 }
 
 .portifolio p a {

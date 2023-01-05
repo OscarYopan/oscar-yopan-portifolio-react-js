@@ -1,0 +1,35 @@
+.footer {
+  background-color: #211D35;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer #logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.footer .social {
+  font-size: 2.5rem;
+}
+
+.footer .social a {
+  text-decoration: none;
+  margin: 0 1rem
+}
+
+.footer .social a i {
+  text-decoration: none;
+  color: var(--first-color-alt);
+}
+
+.footer .social a i:hover {
+  transform: scale(1.2);
+}
