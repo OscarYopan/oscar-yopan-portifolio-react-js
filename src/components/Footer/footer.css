@@ -1,6 +1,9 @@
 .footer {
   background-color: var(--container-color);
   width: 100vw;
+  height: 20rem;
+  position: relative;
+  padding-top: 5rem;
 }
 
 .footer .footer-container {
@@ -10,15 +13,17 @@
   margin-bottom: 4rem;
 }
 
-.footer #logo {
+.footer .logo {
   display: flex;
   align-items: center;
-  margin-right: 50rem;
+  justify-content: center;
+  margin-right: 10rem;
 }
 
 .footer .logo a {
   font-size: 3rem;
   text-decoration: none;
+  color: var(--title-color);
 }
 
 .footer .logo a:hover {
@@ -31,12 +36,12 @@
 
 .footer .social a {
   text-decoration: none;
-  margin: 0 1rem
+  margin: 0 1rem;
 }
 
 .footer .social a i {
   text-decoration: none;
-  color: var(--first-color-alt);
+  color: var(--title-color);
 }
 
 .footer .social a i:hover {
@@ -47,4 +52,13 @@
   font-size: 1.4rem;
   color: var(--text-color);
   text-align: center;
+}
+
+.footer .copy a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer .copy a:hover {
+  color: var(--first-color);
 }
