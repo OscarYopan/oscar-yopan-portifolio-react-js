@@ -78,5 +78,40 @@
   .home {
     height: 90vh;
     width: 100vw;
+    position: relative;
+  }
+
+  .home .social {
+    font-size: 1.5rem;
+  }
+
+  .home .me {
+    max-width: 95%;
+    margin: 0 2rem;
+  }
+
+  .home .oscar-pic {
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+  }
+
+  .home .oscar-pic::before {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+
+  .home .me .title {
+    font-size: 2rem;
+  }
+
+  .home .me .subtitle {
+    font-size: 1.6rem;
+  }
+  
+  .home .me .presentation {
+    font-size: 1.4rem;
   }
 }
