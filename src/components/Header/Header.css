@@ -82,3 +82,22 @@
 .nav a:hover {
   color: var(--text-color-light);
 }
+
+/* ======================= Media ====================== */
+@media screen and (max-width: 500px) {
+  .nav {
+    background-color: var(--container-color);
+  }
+
+  .nav .nav-container {
+    padding: 0;
+  }
+
+  .nav #logo a {
+    font-size: 2rem;
+  }
+
+  .nav .menu {
+    display: none;
+  }
+}
