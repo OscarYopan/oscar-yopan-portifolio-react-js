@@ -40,3 +40,12 @@
   height: 600px;
   border: none;
 }
+
+/* =========================== Media ====================== */
+
+@media (max-width: 500px) {
+  .portifolio {
+    height: 90vh;
+    width: 100vw;
+  }
+}

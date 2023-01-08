@@ -62,3 +62,11 @@
 .footer .copy a:hover {
   color: var(--first-color);
 }
+
+/* =========================== Media ====================== */
+
+@media (max-width: 500px) {
+  .footer {
+    width: 100vw;
+  }
+}

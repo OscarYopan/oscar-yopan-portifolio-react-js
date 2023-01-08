@@ -42,3 +42,12 @@
   font-size: 15rem;
   color: var(--first-color-alt);
 }
+
+/* =========================== Media ====================== */
+
+@media (max-width: 500px) {
+  .skills {
+    height: 90vh;
+    width: 100vw;
+  }
+}

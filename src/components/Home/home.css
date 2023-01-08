@@ -73,3 +73,10 @@
   border-radius: 20% 80% 11% 89% / 65% 40% 60% 35%;
   animation: rotation 3s infinite ease-in;
 }
+
+@media (max-width: 500px) {
+  .home {
+    height: 90vh;
+    width: 100vw;
+  }
+}

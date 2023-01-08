@@ -84,9 +84,11 @@
 }
 
 /* ======================= Media ====================== */
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .nav {
     background-color: var(--container-color);
+    height: 10vh;
+    width: 100vw;
   }
 
   .nav .nav-container {
