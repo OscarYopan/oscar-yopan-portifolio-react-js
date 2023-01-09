@@ -50,4 +50,27 @@
     height: 90vh;
     width: 100vw;
   }
+
+  .skills h1 {
+    font-size: 2rem;
+  }
+  
+  .skills .container {
+    max-width: 90%;
+    height: 30rem;
+  }
+  
+  .skills .container .skill {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .skills .container .skill h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills .container .fa-brands {
+    font-size: 5rem;
+  }
 }
