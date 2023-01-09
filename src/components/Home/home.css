@@ -82,25 +82,31 @@
   }
 
   .home .social {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
   }
 
   .home .me {
     max-width: 95%;
     margin: 0 2rem;
+    position: absolute;
+    top: 35rem;
+    left: 1rem;
   }
 
   .home .oscar-pic {
-    height: 6rem;
-    width: 6rem;
+    height: 13rem;
+    width: 13rem;
     position: absolute;
-    top: 10rem;
-    left: 8rem;
+    top: 15rem;
+    left: 12rem;
   }
 
   .home .oscar-pic::before {
-    height: 6.4rem;
-    width: 6.4rem;
+    height: 17rem;
+    width: 17rem;
   }
 
   .home .me .title {
