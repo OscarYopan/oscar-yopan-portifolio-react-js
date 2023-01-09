@@ -67,5 +67,44 @@
   .about {
     height: 90vh;
     width: 100vw;
+    position: relative;
+  }
+
+  .about .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about .subtitle {
+    font-size: 1.6rem;
+  }
+  
+  .about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about .oscar-photo {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+  }
+  
+  .about .oscar-photo::before {
+    display: none;
+  }
+  
+  .about .me {
+    max-width: 95%;
+    margin: 0 2rem;
+    color: var(--text-color);
+  }
+  
+  .about .me .presentation {
+    font-size: 1.4rem;
   }
 }
