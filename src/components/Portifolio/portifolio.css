@@ -48,4 +48,17 @@
     height: 90vh;
     width: 100vw;
   }
+
+  .portifolio h1 {
+    font-size: 2rem;
+  }
+  
+  .portifolio p {
+    font-size: 1.4rem;
+  }
+  
+  .portifolio iframe {
+    width: 100%;
+    height: 600px;
+  }
 }
