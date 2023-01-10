@@ -66,16 +66,12 @@
 /* =========================== Media ====================== */
 
 @media (max-width: 500px) {
-  .footer {
-    width: 100vw;
-  }
-
   .footer .footer-container {
-    margin-bottom: 0;
+    margin-bottom: 3rem;
   }
   
   .footer .logo {
-    margin-right: 0;
+    margin-right: 3rem;
   }
   
   .footer .logo a {
@@ -87,10 +83,6 @@
   }
   
   .footer .social a {
-    margin: 0;
-  }
-  
-  .footer .copy {
-    font-size: 1.2rem;
+    margin: .5rem;
   }
 }
