@@ -13,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      {/* <Portifolio /> */}
+      <Portifolio />
       <Footer />
     </div>
   )

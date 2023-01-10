@@ -31,6 +31,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.mobile-container {
+  display: none;
+}
+
 @keyframes textAnimation {
   to {
     background-position: 300% center;
@@ -41,7 +45,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   transition: all .3s ease-in-out;
 }
 
@@ -89,6 +93,7 @@
     background-color: var(--container-color);
     height: 10vh;
     width: 100vw;
+    position: relative;
   }
 
   .nav .nav-container {
@@ -101,5 +106,21 @@
 
   .nav .menu {
     display: none;
+  }
+
+  .mobile-container {
+    display: flex;
+  }
+
+  .mobile-container .fa-solid {
+    font-size: 2rem;
+    color: var(--first-color);
+    position: absolute;
+    top: 50%;
+    right: 4rem;
+  }
+
+  .mobile-container .fa-xmark {
+    font-size: 2.3rem;
   }
 }

@@ -15,6 +15,10 @@ function Header() {
             <li><a href="#skills">skills</a></li>
             <li><a href="#portifolio">Portifolio</a></li>
           </ul>
+          <div className='mobile-container'>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
         </div>
       </nav>
     </header>
