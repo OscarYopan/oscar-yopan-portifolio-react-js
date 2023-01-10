@@ -69,15 +69,6 @@
     width: 100vw;
     position: relative;
   }
-
-  .about .title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .about .subtitle {
-    font-size: 1.6rem;
-  }
   
   .about .container {
     display: flex;
@@ -105,9 +96,5 @@
     position: absolute;
     top: 40rem;
     left: 1rem;
-  }
-  
-  .about .me .presentation {
-    font-size: 1.4rem;
   }
 }
