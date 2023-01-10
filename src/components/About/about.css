@@ -71,7 +71,7 @@
   }
 
   .about .title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
   
@@ -86,12 +86,12 @@
   }
   
   .about .oscar-photo {
-    height: 13rem;
-    width: 13rem;
+    height: 16rem;
+    width: 20rem;
     border-radius: 1rem;
     position: absolute;
-    top: 20rem;
-    left: 3rem;
+    top: 22rem;
+    /* left: .5rem; */
   }
   
   .about .oscar-photo::before {
@@ -103,7 +103,7 @@
     margin: 0 2rem;
     color: var(--text-color);
     position: absolute;
-    top: 35rem;
+    top: 40rem;
     left: 1rem;
   }
   
