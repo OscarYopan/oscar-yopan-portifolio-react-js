@@ -16,8 +16,8 @@ function Header() {
             <li><a href="#portifolio">Portifolio</a></li>
           </ul>
           <div className='mobile-container'>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-xmark"></i>
+            <button><i class="fa-solid fa-bars"></i></button>
+            <button><i class="fa-solid fa-xmark"></i></button>
           </div>
         </div>
       </nav>

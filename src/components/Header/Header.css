@@ -13,6 +13,9 @@
 .nav-container {
   max-width: 100rem;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav #logo {
@@ -45,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 2rem 0; */
+  padding: 2rem 0;
   transition: all .3s ease-in-out;
 }
 
@@ -101,7 +104,7 @@
   }
 
   .nav #logo a {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .nav .menu {
@@ -112,12 +115,13 @@
     display: flex;
   }
 
-  .mobile-container .fa-solid {
+  .mobile-container button .fa-solid {
     font-size: 2rem;
     color: var(--first-color);
     position: absolute;
     top: 50%;
     right: 4rem;
+    cursor: pointer;
   }
 
   .mobile-container .fa-xmark {
