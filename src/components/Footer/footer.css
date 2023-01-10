@@ -69,4 +69,28 @@
   .footer {
     width: 100vw;
   }
+
+  .footer .footer-container {
+    margin-bottom: 0;
+  }
+  
+  .footer .logo {
+    margin-right: 0;
+  }
+  
+  .footer .logo a {
+    font-size: 2rem;
+  }
+  
+  .footer .social {
+    font-size: 2rem;
+  }
+  
+  .footer .social a {
+    margin: 0;
+  }
+  
+  .footer .copy {
+    font-size: 1.2rem;
+  }
 }
