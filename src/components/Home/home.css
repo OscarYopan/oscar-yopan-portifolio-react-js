@@ -82,9 +82,8 @@
   }
 
   .home .social {
-    font-size: 2rem;
     position: absolute;
-    top: 14rem;
+    top: 12rem;
     left: 10%;
   }
 
@@ -97,27 +96,15 @@
   }
 
   .home .oscar-pic {
-    height: 13rem;
-    width: 13rem;
+    height: 16rem;
+    width: 16rem;
     position: absolute;
-    top: 15rem;
-    left: 40%;
+    top: 13rem;
+    left: 35%;
   }
 
   .home .oscar-pic::before {
-    height: 17rem;
-    width: 17rem;
-  }
-
-  .home .me .title {
-    font-size: 2rem;
-  }
-
-  .home .me .subtitle {
-    font-size: 1.6rem;
-  }
-  
-  .home .me .presentation {
-    font-size: 1.4rem;
+    height: 20rem;
+    width: 20rem;
   }
 }
