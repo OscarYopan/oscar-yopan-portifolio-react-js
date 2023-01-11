@@ -8,6 +8,7 @@
   z-index: 100;
   color: var(--title-color);
   transition: all .3s ease-in-out;
+  height: 8rem;
 }
 
 .nav-container {
@@ -16,6 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  position: relative;
 }
 
 .nav #logo {
@@ -96,7 +99,6 @@
     background-color: var(--container-color);
     height: 10vh;
     width: 100vw;
-    position: relative;
   }
 
   .nav .nav-container {
@@ -111,20 +113,41 @@
     display: none;
   }
 
+  .nav .menu .open {
+    display: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30rem;
+    width: 100%;
+  }
+
   .mobile-container {
     display: flex;
+    align-items: center;
+  }
+
+  .mobile-container button {
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--container-color);
+    border: none;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .mobile-container button:active {
+    color: var(--title-color);
   }
 
   .mobile-container button .fa-solid {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--first-color);
-    position: absolute;
-    top: 50%;
-    right: 4rem;
     cursor: pointer;
   }
 
   .mobile-container .fa-xmark {
-    font-size: 2.3rem;
+
   }
 }

@@ -9,7 +9,7 @@ function Header() {
           <div id="logo">
             <h3 className="logo"><a href="index.html">Oscar Yopan</a></h3>
           </div>
-          <ul className="menu">
+          <ul className="menu open">
             <li><a href="#home" className="current">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">skills</a></li>
