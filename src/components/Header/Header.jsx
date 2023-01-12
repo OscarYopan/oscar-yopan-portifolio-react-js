@@ -17,6 +17,7 @@ function Header() {
               <li><a href="#portifolio">Portifolio</a></li>
             </ul>
           </div>
+          <button className='toggle'><i class="fa-solid fa-bars"></i></button>
         </div>
       </nav>
     </header>

@@ -93,6 +93,12 @@
   color: var(--text-color-light);
 }
 
+.toggle {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -100;
+}
+
 /* ======================= Media ====================== */
 @media (max-width: 500px) {
   .nav {
@@ -110,66 +116,26 @@
   }
 
   .nav .menu{
-    display: none;
-  }
-
-  .mobile-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .mobile-container.open {
     position: absolute;
-    top: 0;
-    right: 0;
-    height: 30rem;
-    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -100;
   }
 
-  .mobile-container button {
-    height: 3rem;
-    width: 3rem;
-    background-color: var(--container-color);
-    border: none;
-    position: absolute;
+  .toggle {
+    position: fixed;
     top: 2rem;
     right: 2rem;
-  }
-
-  .mobile-container button:active {
-    color: var(--title-color);
-  }
-
-  .mobile-container button .fa-solid {
-    font-size: 2.5rem;
-    color: var(--first-color);
-    cursor: pointer;
-  }
-
-  .mobile-menu {
-    background-color: var(--first-color);
-    position: fixed;
-    top: 0;
-    right: 0;
+    visibility: visible;
+    opacity: 1;
     z-index: 10;
-    height: 30rem;
-    width: 100%;
-  }
-
-  .mobile-menu.close {
-    visibility: hidden;
-    z-index: -100;
-    opacity: 0%;
-  }
-
-  .mobile-menu button .fa-solid {
-    font-size: 2.5rem;
-    color: var(--first-color);
+    height: 3rem;
+    width: 3rem;
+    padding: .5em 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-  }
-
-  .fa-solid{
-    font-size: 3rem;
-    color: var(--body-color);
   }
 }
