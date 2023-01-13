@@ -48,6 +48,10 @@
     height: 90vh;
     width: 100vw;
   }
+
+  .portifolio p {
+    margin-bottom: 4rem;
+  }
   
   .portifolio iframe {
     width: 90%;

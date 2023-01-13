@@ -47,9 +47,13 @@
 
 @media (max-width: 500px) {
   .skills {
-    padding-top: 0;
+    padding-top: 20rem;
     height: 90vh;
     width: 100vw;
+  }
+
+  .skills h1 {
+    top: 16rem;
   }
   
   .skills .container {

@@ -81,8 +81,7 @@
     width: 20rem;
     border-radius: 1rem;
     position: absolute;
-    top: 22rem;
-    /* left: .5rem; */
+    top: 25rem;
   }
   
   .about .oscar-photo::before {
@@ -94,7 +93,7 @@
     margin: 0 2rem;
     color: var(--text-color);
     position: absolute;
-    top: 40rem;
+    top: 45rem;
     left: 1rem;
   }
 }

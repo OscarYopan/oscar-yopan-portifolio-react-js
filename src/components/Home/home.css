@@ -83,7 +83,7 @@
 
   .home .social {
     position: absolute;
-    top: 12rem;
+    top: 16rem;
     left: 10%;
   }
 
@@ -91,7 +91,7 @@
     max-width: 95%;
     margin: 0 2rem;
     position: absolute;
-    top: 35rem;
+    top: 40rem;
     left: 1rem;
   }
 
@@ -99,7 +99,7 @@
     height: 16rem;
     width: 16rem;
     position: absolute;
-    top: 13rem;
+    top: 17rem;
     left: 35%;
   }
 
