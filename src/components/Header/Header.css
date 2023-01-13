@@ -65,7 +65,7 @@
 .nav a {
   color: white;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   letter-spacing: .2rem;
   padding: .7rem 1.5rem;
@@ -86,7 +86,7 @@
 }
 
 .nav a.current {
-  color: var(--first-color);
+  color: var(--text-color);
 }
 
 .nav a:hover {
@@ -94,6 +94,7 @@
 }
 
 .toggle {
+  position: absolute;
   visibility: hidden;
   opacity: 0;
   z-index: -100;
@@ -153,8 +154,8 @@
     border: none;
     border-radius: .5rem;
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 2.5rem;
+    right: 2.5rem;
     visibility: visible;
     opacity: 1;
     z-index: 10;

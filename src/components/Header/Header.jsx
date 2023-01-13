@@ -8,11 +8,11 @@ function Header() {
           <div id="logo">
             <h3 className="logo"><a href="index.html">Oscar Yopan</a></h3>
           </div>
-          <div  className="menu open">
+          <div  className="menu">
             <ul>
               <li><a href="#home" className="current">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#skills">skills</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#portifolio">Portifolio</a></li>
             </ul>
           </div>
@@ -27,6 +27,18 @@ function Header() {
 function openMenu() {
   const menu = document.querySelector('.menu')
   menu.classList.toggle('open')
+}
+
+// ************** Close Menu *****************
+
+function closeMenuOnClick() {
+  const links = document.querySelectorAll('menu ul li a')
+  const menu = document.querySelector('.menu')
+  for (const link of links) {
+    link.addEventListener('click', () => {
+      menu.classList.remove('open')
+    })
+  }
 }
 
 // ************ Nav Animation ***************
