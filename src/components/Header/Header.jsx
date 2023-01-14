@@ -11,9 +11,9 @@ function Header() {
           <div  className="menu">
             <ul>
               <li><button onClick={closeMenuOnClick}><a href="#home" className="current">Home</a></button></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portifolio">Portifolio</a></li>
+              <li><button onClick={closeMenuOnClick}><a href="#about">About</a></button></li>
+              <li><button onClick={closeMenuOnClick}><a href="#skills">Skills</a></button></li>
+              <li><button onClick={closeMenuOnClick}><a href="#portifolio">Portifolio</a></button></li>
             </ul>
           </div>
           <button className='toggle' onClick={openMenu}><i class="fa-solid fa-bars"></i></button>
@@ -31,13 +31,8 @@ function openMenu() {
 
 // ************** Close Menu on Click *****************
 function closeMenuOnClick() {
-  const links = document.querySelectorAll('menu ul li button a')
   const menuEl = document.querySelector('.menu')
-  for (const link of links) {
-    link.addEventListener('click', () => {
-      menuEl.classList.remove('open')
-    })
-  }
+  menuEl.classList.remove('open')
 }
 
 // ************** Nav Animation ***********************
