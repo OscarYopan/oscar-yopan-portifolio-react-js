@@ -36,15 +36,14 @@ function closeMenuOnClick() {
 }
 
 // ************** Nav Animation ***********************
-// function fixNav() {
-//   const nav = document.querySelector('.nav')
-//   window.addEventListener('scroll', fixNav)
-//   if (window.scrollY > nav.offsetHeight + 150) {
-//     nav.classList.add('active')
-//     console.log(nav.offsetHeight)
-//   } else {
-//     nav.classList.remove('active')
-//   }
-// }
+//  function fixNav() {
+//    const nav = document.querySelector('.nav')
+//   //  window.addEventListener('scroll', fixNav)
+//    if (window.scrollY > nav.offsetHeight + 150) {
+//      nav.classList.add('active')
+//    } else {
+//      nav.classList.remove('active')
+//    }
+//  }
 
 export default Header
