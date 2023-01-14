@@ -1,6 +1,21 @@
+import React from 'react'
 import './Header.css'
 
 function Header() {
+  // ************** Close Menu on Click *****************
+  React.useEffect(() => {
+    const links = document.querySelectorAll('menu ul li a')
+    links.addEventListener('click', closeMenuOnClick)
+    function closeMenuOnClick() {
+      const menu = document.querySelector('.menu')
+      for (const link of links) {
+        link.addEventListener('click', () => {
+          menu.classList.remove('open')
+        })
+      }
+    }
+  }, []);
+
   return <div className="header">
     <header className="header" id="header">
       <nav className="nav">
@@ -23,25 +38,13 @@ function Header() {
   </div>
 }
 
-// ************ Open Mobile Menu ************
+// ************** Open Mobile Menu ********************
 function openMenu() {
   const menu = document.querySelector('.menu')
   menu.classList.toggle('open')
 }
 
-// ************** Close Menu *****************
-
-function closeMenuOnClick() {
-  const links = document.querySelectorAll('menu ul li a')
-  const menu = document.querySelector('.menu')
-  for (const link of links) {
-    link.addEventListener('click', () => {
-      menu.classList.remove('open')
-    })
-  }
-}
-
-// ************ Nav Animation ***************
+// ************** Nav Animation ***********************
 // function fixNav() {
 //   const nav = document.querySelector('.nav')
 //   window.addEventListener('scroll', fixNav)
