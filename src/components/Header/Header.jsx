@@ -1,4 +1,3 @@
-import React from 'react'
 import './Header.css'
 
 function Header() {
@@ -11,7 +10,7 @@ function Header() {
           </div>
           <div  className="menu">
             <ul>
-              <li><a href="#home" className="current">Home</a></li>
+              <li><button onClick={closeMenuOnClick}><a href="#home" className="current">Home</a></button></li>
               <li><a href="#about">About</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#portifolio">Portifolio</a></li>
@@ -31,16 +30,15 @@ function openMenu() {
 }
 
 // ************** Close Menu on Click *****************
-// function closeMenuOnClick() {
-//   const links = document.querySelectorAll('menu ul li a')
-//   links.addEventListener('click', closeMenuOnClick)
-//   const menu = document.querySelector('.menu')
-//   for (const link of links) {
-//     link.addEventListener('click', () => {
-//       menu.classList.remove('open')
-//     })
-//   }
-// }
+function closeMenuOnClick() {
+  const links = document.querySelectorAll('menu ul li button a')
+  const menuEl = document.querySelector('.menu')
+  for (const link of links) {
+    link.addEventListener('click', () => {
+      menuEl.classList.remove('open')
+    })
+  }
+}
 
 // ************** Nav Animation ***********************
 // function fixNav() {
