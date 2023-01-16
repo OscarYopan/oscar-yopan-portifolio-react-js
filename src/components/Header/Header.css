@@ -129,7 +129,7 @@
   }
 
   .nav .menu.open {
-    background-color: var(--first-color-alt);
+    background-color: var(--container-color);
     top: 0;
     right: 0;
     height: 1000%;

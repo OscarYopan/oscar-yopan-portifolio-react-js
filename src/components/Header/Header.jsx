@@ -10,7 +10,7 @@ function Header() {
           </div>
           <div  className="menu">
             <ul>
-              <li><button onClick={closeMenuOnClick}><a href="#home" className="current">Home</a></button></li>
+              <li><button onClick={closeMenuOnClick}><a href="#home">Home</a></button></li>
               <li><button onClick={closeMenuOnClick}><a href="#about">About</a></button></li>
               <li><button onClick={closeMenuOnClick}><a href="#skills">Skills</a></button></li>
               <li><button onClick={closeMenuOnClick}><a href="#portifolio">Portifolio</a></button></li>
@@ -45,5 +45,12 @@ function closeMenuOnClick() {
 //      nav.classList.remove('active')
 //    }
 //  }
+
+/* When Scroll */
+window.addEventListener('scroll', () => {
+  // changeHeaderWhenScroll()
+  // backToTop()
+  // activateMenuAtCurrentSection()
+})
 
 export default Header
