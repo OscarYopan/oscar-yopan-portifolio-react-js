@@ -36,18 +36,18 @@ function closeMenuOnClick() {
 }
 
 // ************** Nav Animation ***********************
-//  function fixNav() {
-//    const nav = document.querySelector('.nav')
-//   //  window.addEventListener('scroll', fixNav)
-//    if (window.scrollY > nav.offsetHeight + 150) {
-//      nav.classList.add('active')
-//    } else {
-//      nav.classList.remove('active')
-//    }
-//  }
+function fixNav() {
+  const navEl = document.querySelector('.nav')
+  if (window.scrollY > navEl.offsetHeight + 150) {
+    navEl.classList.add('active')
+  } else {
+    navEl.classList.remove('active')
+  }
+}
 
-/* When Scroll */
+// ************** When Scroll *************************
 window.addEventListener('scroll', () => {
+  fixNav()
   // changeHeaderWhenScroll()
   // backToTop()
   // activateMenuAtCurrentSection()
