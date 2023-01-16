@@ -110,6 +110,14 @@
     width: 100vw;
   }
 
+  .nav.active {
+    height: 8rem;
+  }
+  
+  .nav.active .nav-container {
+    padding: 0;
+  }
+
   .nav .nav-container {
     padding: 0;
   }

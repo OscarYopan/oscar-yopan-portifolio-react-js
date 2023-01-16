@@ -38,7 +38,7 @@ function closeMenuOnClick() {
 // ************** Nav Animation ***********************
 function fixNav() {
   const navEl = document.querySelector('.nav')
-  if (window.scrollY > navEl.offsetHeight + 150) {
+  if (window.scrollY > navEl.offsetHeight + 50) {
     navEl.classList.add('active')
   } else {
     navEl.classList.remove('active')
