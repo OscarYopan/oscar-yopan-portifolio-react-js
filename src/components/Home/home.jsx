@@ -26,7 +26,7 @@ function Home() {
           <h1 className="title">Oscar Yopan</h1>
           <h3 className="subtitle">Frontend Developer</h3>
           <p className="presentation">Hello! I am a developer student, making my first steps in this amazing universe, always looking for the next level.</p>
-          <button className="button">Contact</button>
+          <button className="button"><a href="https://api.whatsapp.com/send?phone=+5547996048141&text=Hello!." target="_blank" rel="noreferrer">Contact</a></button>
         </div>
         <div className="oscar-pic"></div>
       </div>
