@@ -97,3 +97,38 @@
     left: 1rem;
   }
 }
+
+@media (max-width: 900px) and (min-width: 501px) {
+  .about {
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about .oscar-photo {
+    height: 16rem;
+    width: 20rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 25rem;
+  }
+  
+  .about .oscar-photo::before {
+    display: none;
+  }
+  
+  .about .me {
+    max-width: 95%;
+    margin: 0 2rem;
+    color: var(--text-color);
+    position: absolute;
+    top: 45rem;
+    left: 1rem;
+  }
+}

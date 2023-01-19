@@ -179,7 +179,7 @@
   }
 }
 
-@media (max-width: 900px) and (min-width: 550px) {
+@media (max-width: 900px) and (min-width: 501px) {
   .nav .nav-container {
     margin: 0 5rem;
   }
