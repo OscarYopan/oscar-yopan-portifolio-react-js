@@ -108,3 +108,55 @@
     width: 20rem;
   }
 }
+
+@media (max-width: 900px) {
+  .home {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  .home .social {
+    position: absolute;
+    top: 20rem;
+    left: 15%;
+  }
+
+  .home .social a i {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .home .me {
+    max-width: 95%;
+    margin: 0 2rem;
+    position: absolute;
+    bottom: 10rem;
+    margin: 0 10rem;
+  }
+
+  .home .me .title {
+    font-size: 6rem;
+  }
+
+  .home .me .subtitle {
+    font-size: 4rem;
+  }
+
+  .home .me .presentation {
+    font-size: 3rem;
+  }
+
+  .home .oscar-pic {
+    height: 40rem;
+    width: 40rem;
+    position: absolute;
+    top: 17rem;
+    left: 35%;
+  }
+
+  .home .oscar-pic::before {
+    height: 45rem;
+    width: 45rem;
+  }
+}
