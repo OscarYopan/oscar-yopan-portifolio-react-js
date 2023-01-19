@@ -100,7 +100,7 @@
 
 @media (max-width: 900px) and (min-width: 501px) {
   .about {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
   }
@@ -110,13 +110,21 @@
     align-items: center;
     justify-content: center;
   }
+
+  .about .title {
+    font-size: 6rem;
+  }
+
+  .about .subtitle {
+    font-size: 4rem;
+  }
   
   .about .oscar-photo {
-    height: 16rem;
-    width: 20rem;
+    height: 40rem;
+    width: 50rem;
     border-radius: 1rem;
     position: absolute;
-    top: 25rem;
+    top: 25%;
   }
   
   .about .oscar-photo::before {
@@ -125,10 +133,14 @@
   
   .about .me {
     max-width: 95%;
-    margin: 0 2rem;
+    margin: 0 10rem;
     color: var(--text-color);
     position: absolute;
-    top: 45rem;
+    bottom: 10%;
     left: 1rem;
+  }
+
+  .about .me .presentation {
+    font-size: 3rem;
   }
 }
