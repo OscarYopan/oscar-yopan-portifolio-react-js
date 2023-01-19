@@ -143,4 +143,8 @@
   .about .me .presentation {
     font-size: 3rem;
   }
+
+  .about button a {
+    font-size: 3rem;
+  }
 }

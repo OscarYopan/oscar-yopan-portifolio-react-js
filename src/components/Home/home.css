@@ -159,4 +159,8 @@
     height: 45rem;
     width: 45rem;
   }
+
+  .home button a {
+    font-size: 3rem;
+  }
 }
