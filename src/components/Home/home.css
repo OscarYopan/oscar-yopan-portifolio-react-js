@@ -109,7 +109,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 550px) {
   .home {
     height: 100vh;
     width: 100vw;
