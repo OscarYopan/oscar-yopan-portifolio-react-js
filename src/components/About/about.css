@@ -112,16 +112,16 @@
   }
 
   .about .title {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .about .subtitle {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .about .oscar-photo {
-    height: 40rem;
-    width: 50rem;
+    height: 36rem;
+    width: 45rem;
     border-radius: 1rem;
     position: absolute;
     top: 25%;
@@ -141,7 +141,7 @@
   }
 
   .about .me .presentation {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .about button a {
