@@ -89,7 +89,7 @@
   }
   
   .skills .container {
-    max-width: 90%;
+    max-width: 50rem;
     height: 70%;
   }
   
@@ -99,11 +99,7 @@
   }
   
   .skills .container .skill h4 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .skills .container .fa-brands {
-    font-size: 20rem;
   }
 }

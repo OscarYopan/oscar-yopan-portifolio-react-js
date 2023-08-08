@@ -123,7 +123,7 @@
   }
 
   .home .social a i {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
   }
 
@@ -136,15 +136,15 @@
   }
 
   .home .me .title {
-    font-size: 6rem;
-  }
-
-  .home .me .subtitle {
     font-size: 4rem;
   }
 
-  .home .me .presentation {
+  .home .me .subtitle {
     font-size: 3rem;
+  }
+
+  .home .me .presentation {
+    font-size: 2rem;
   }
 
   .home .oscar-pic {
