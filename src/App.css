@@ -55,6 +55,5 @@ button a {
 }
 
 .button:active {
-  opacity: 90%;
-  color: var(--title-color);
+  opacity: 70%;
 }
