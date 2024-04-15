@@ -18,7 +18,7 @@ function Home() {
           <a href="https://www.instagram.com/oscaryopan/" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-instagram"></i>        
           </a>
-          <a href="https://api.whatsapp.com/send?phone=+5547996048141&text=Hello!." target="_blank" rel="noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=+5548991006117&text=Hello!." target="_blank" rel="noreferrer">
             <i className="fa-brands fa-whatsapp"></i>        
           </a>
         </div>
